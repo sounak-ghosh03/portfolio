@@ -242,18 +242,22 @@ const socialImgs = [
     {
         name: "insta",
         imgPath: "/images/insta.png",
+        url: "https://www.instagram.com/sounakghosh/",
+
     },
-    {
-        name: "fb",
-        imgPath: "/images/fb.png",
-    },
+    // {
+    //     name: "fb",
+    //     imgPath: "/images/fb.png",
+    // },
     {
         name: "x",
         imgPath: "/images/x.png",
+        url: "https://twitter.com/sounakghosh",
     },
     {
         name: "linkedin",
         imgPath: "/images/linkedin.png",
+        url: "https://www.linkedin.com/in/sounakghosh/",
     },
 ];
 

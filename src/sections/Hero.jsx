@@ -2,6 +2,8 @@ import { useGSAP } from "@gsap/react";
 import Button from "../components/Button";
 import { words } from "../constants";
 import gsap from "gsap";
+import HeroExperience from "../components/models/hero_models/HeroExperience";
+import AnimatedCounter from "../components/AnimatedCounter";
 const Hero = () => {
     useGSAP(() => {
         gsap.fromTo(
@@ -20,7 +22,7 @@ const Hero = () => {
         <>
             <section id="hero" className="relative overflow-hidden">
                 <div className="absolute top-0 left-0 z-10">
-                    <img src="" alt="background" />
+                    <img src="./images/bg.png" alt="background" />
                 </div>
                 <div className="hero-layout">
                     {/* LEFT SIDE: HERO CONTENT */}
@@ -49,7 +51,7 @@ const Hero = () => {
                                 </h1>
 
                                 <h1>into Real Projects</h1>
-                                <h1>that delivers results</h1>
+                                <h1>that Deliver Results</h1>
                             </div>
                             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
                                 Hi!, I'm Sounak, a developer form India
@@ -61,10 +63,14 @@ const Hero = () => {
                             />
                         </div>
                     </header>
+                    {/* RIGHT SIDE: HERO 3D MODEL */}
                     <figure>
-                        <div className="hero-3d-layout"></div>
+                        <div className="hero-3d-layout">
+                            <HeroExperience />
+                        </div>
                     </figure>
                 </div>
+                <AnimatedCounter />
             </section>
         </>
     );
