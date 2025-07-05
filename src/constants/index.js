@@ -91,23 +91,31 @@ const abilities = [
 
 const techStackImgs = [
     {
-        name: "React Developer",
+        name: "Frontend Development",
         imgPath: "/images/logos/react.png",
     },
     {
-        name: "Python Developer",
-        imgPath: "/images/logos/python.svg",
-    },
-    {
-        name: "Backend Developer",
+        name: "Backend Development",
         imgPath: "/images/logos/node.png",
     },
     {
-        name: "Interactive Developer",
-        imgPath: "/images/logos/three.png",
+        name: "Fullstack Development",
+        imgPath: "/images/logos/next-js.svg",
     },
     {
-        name: "Project Manager",
+        name: "Python Development",
+        imgPath: "/images/logos/python.svg",
+    },
+    {
+        name: "Applications",
+        imgPath: "/images/logos/typescript-original.svg",
+    },
+    {
+        name: "Database",
+        imgPath: "/images/logos/mongodb-icon.svg",
+    },
+    {
+        name: "Project Management",
         imgPath: "/images/logos/git.svg",
     },
 ];
@@ -243,7 +251,6 @@ const socialImgs = [
         name: "insta",
         imgPath: "/images/insta.png",
         url: "https://www.instagram.com/sounakghosh/",
-
     },
     // {
     //     name: "fb",

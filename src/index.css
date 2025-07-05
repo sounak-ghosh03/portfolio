@@ -231,7 +231,7 @@ section {
     }
 
     .card-border {
-        @apply border border-black-50 bg-black-100;
+        @apply border border-black-50 bg-[#232631];
     }
 
     .marquee-item {
@@ -259,7 +259,7 @@ section {
     }
 
     .tech-card-animated-bg {
-        @apply absolute left-0 bottom-[-100%] w-full h-full bg-[#2D3240] group-hover:bottom-0 transition-all duration-700;
+        @apply absolute left-0 bottom-[-100%] w-full h-full bg-[#363c4d] group-hover:bottom-0 transition-all duration-700;
     }
 
     .tech-card-content {
